@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/static/js/bundle.js",
+    "index.html": "/index.html",
+    "manifest.json": "/manifest.json",
+    "bundle.js.map": "/static/js/bundle.js.map"
+  },
+  "entrypoints": [
+    "static/js/bundle.js"
+  ]
+}

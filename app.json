@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "web-test-project",
+    "slug": "web-test-project",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
