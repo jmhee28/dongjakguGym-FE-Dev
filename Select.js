@@ -3,7 +3,7 @@ import {View, Text, Button, StyleSheet, Linking, FlatList, TouchableOpacity} fro
 import axios from 'axios';
 import {gymNum, gymName} from './enums'
 import {CheckBox} from "react-native-web";
-import {classes_api} from "./API_list"
+import {classes_api, default_classes_api} from "./API_list"
 export default function App() {
     const [selectedGym, setSelectedGym] = useState(""); // 선택한 체육관 이름 상태 변수
     const [data, setData] = useState(null);

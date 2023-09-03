@@ -13,6 +13,7 @@
 ### FE
 - React-Native
 - Deploy : GitHub + AWS Amplify
+- [Expo Publish websites](https://docs.expo.dev/distribution/publishing-websites/#aws-amplify-console)
 
 ### BE
 - AWS Lambda
@@ -29,3 +30,24 @@
 로 10분에 한번씩 크롤링한 결과를 DB에 저장하여 로딩되는 시간을 줄이기
 - User가 원하는 강의의 잔여 정원이 생기면 알람을 주기 (Email, 핸드폰 알람 .. 등등)
 - IOS, Android 배포
+
+
+## 시작하기
+
+### node 설치
+node version: 20.xx
+
+### expo 설치
+expo: react native를 좀 간편하게 해주는 컴
+
+### 프로젝트 시작
+
+1. git clone https://github.com/jmhee28/dongjakguGym-FE-Dev.git
+2. npm install
+    - package.json : 이 프로젝트에 필요한 모듈들을 작성해논것
+    - npm install: package.json에 적힌 모듈들 한번에 다운받게 해줌
+    - node_modules가 생성이 됨
+
+2. npm start 입력 후 w 
+3. 파일 수정 후 빌드
+   npx expo export:web

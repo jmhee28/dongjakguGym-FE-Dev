@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "web-test-project",
-    "slug": "web-test-project",
+    "name": "Gym-Schedule",
+    "slug": "Gym-Schedule",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
