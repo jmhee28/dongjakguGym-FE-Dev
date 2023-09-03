@@ -51,3 +51,8 @@ expo: react native를 좀 간편하게 해주는 컴
 2. npm start 입력 후 w 
 3. 파일 수정 후 빌드
    npx expo export:web
+
+## File Descriptions
+1. amplify-explicit.yml: Aws Amplify 설정 파일
+2. App.js: 최상위 화면
+3. API_list.js: API 목록
